@@ -29,58 +29,77 @@
                     <img src="img/floral.jpg" alt="Tatuaje 1">
                     <h3>Tatuaje Floral</h3>
                     <p>Precio: $50</p>
-                    <button>Comprar</button>
+                    <button class="comprar-btn" data-id="1">Comprar</button>
                 </div>
                 <div class="tarjeta">
                     <img src="img/dragon.jpg" alt="Tatuaje 2">
                     <h3>Tatuaje de Dragón</h3>
                     <p>Precio: $80</p>
-                    <button>Comprar</button>
+                    <button class="comprar-btn" data-id="2">Comprar</button>
                 </div>
                 <div class="tarjeta">
                     <img src="img/tribal.jpg" alt="Tatuaje 3">
                     <h3>Tatuaje Tribal</h3>
                     <p>Precio: $65</p>
-                    <button>Comprar</button>
+                    <button class="comprar-btn" data-id="3">Comprar</button>
                 </div>
                 <div class="tarjeta">
-                    <img src="img/anime.jpg" alt="Tatuaje 3">
+                    <img src="img/anime.jpg" alt="Tatuaje 4">
                     <h3>Tatuaje Anime</h3>
                     <p>Precio: $50</p>
-                    <button>Comprar</button>
+                    <button class="comprar-btn" data-id="4">Comprar</button>
                 </div>
                 <div class="tarjeta">
-                    <img src="img/animal.jpg" alt="Tatuaje 3">
+                    <img src="img/animal.jpg" alt="Tatuaje 5">
                     <h3>Tatuaje Animal</h3>
                     <p>Precio: $150</p>
-                    <button>Comprar</button>
+                    <button class="comprar-btn" data-id="5">Comprar</button>
                 </div>
                 <div class="tarjeta">
-                    <img src="img/pelicula.jpg" alt="Tatuaje 3">
+                    <img src="img/pelicula.jpg" alt="Tatuaje 6">
                     <h3>Tatuaje Pelicula/Serie</h3>
                     <p>Precio: $80</p>
-                    <button>Comprar</button>
+                    <button class="comprar-btn" data-id="6">Comprar</button>
                 </div>
                 <div class="tarjeta">
-                    <img src="img/pareja.jpeg" alt="Tatuaje 3">
+                    <img src="img/pareja.jpeg" alt="Tatuaje 7">
                     <h3>Tatuaje en pareja</h3>
                     <p>Precio: $100</p>
-                    <button>Comprar</button>
+                    <button class="comprar-btn" data-id="7">Comprar</button>
                 </div>
                 <div class="tarjeta">
-                    <img src="img/blackout.jpg" alt="Tatuaje 3">
+                    <img src="img/blackout.jpg" alt="Tatuaje 8">
                     <h3>Tatuaje Blackout</h3>
                     <p>Precio: $200</p>
-                    <button>Comprar</button>
+                    <button class="comprar-btn" data-id="8">Comprar</button>
                 </div>
                 <div class="tarjeta">
-                    <img src="img/japones.jpg" alt="Tatuaje 3">
+                    <img src="img/japones.jpg" alt="Tatuaje 9">
                     <h3>Tatuaje Japones</h3>
                     <p>Precio: $120</p>
-                    <button>Comprar</button>
+                    <button class="comprar-btn" data-id="9">Comprar</button>
                 </div>
             </div>
         </section>
+
+     
+        <div id="modal-cita" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Agendar Cita</h2>
+                <form id="form-cita">
+                    <label for="nombre-cliente">Nombre:</label>
+                    <input type="text" id="nombre-cliente" name="nombre" required>
+
+                    <label for="fecha-cita">Fecha:</label>
+                    <input type="date" id="fecha-cita" name="fecha" required>
+
+                    <button type="submit">Agendar</button>
+                </form>
+            </div>
+        </div>
     </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
